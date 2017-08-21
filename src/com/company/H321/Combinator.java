@@ -1,9 +1,9 @@
-package com.company;
+package com.company.H321;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Combinator {
+class Combinator {
     private List<Coords> input;  // input array
     private int setSize = 3;         // sequence length
     private List<List<Coords>> subsets = new ArrayList<>();

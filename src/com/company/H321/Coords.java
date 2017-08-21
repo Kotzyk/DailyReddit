@@ -1,4 +1,4 @@
-package com.company;
+package com.company.H321;
 
 class Coords {
     private double x, y;
@@ -16,8 +16,8 @@ class Coords {
         return new Coords((p1.x + p2.x) / 2, (p1.y + p2.y) / 2);
     }
 
-    public boolean isPointInsideSquare(){
-        if(this.y > 1 || this.x > 1 || this.y < 0 || this.x < 0){
+    public boolean isPointInsideSquare() {
+        if (this.y > 1 || this.x > 1 || this.y < 0 || this.x < 0) {
             return false;
         }
         return true;

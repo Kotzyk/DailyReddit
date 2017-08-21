@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.H321.Circle;
+import com.company.H321.N321H;
+
 import java.io.IOException;
 
 public class Main {
